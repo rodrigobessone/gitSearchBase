@@ -1,0 +1,124 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+main {
+    font-family: var(--font-primary);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(33, 37, 41, 1);
+    display: flex;
+
+}
+
+.div__error {
+    margin: 0;
+    width: 50%;
+    height: 100vh;
+}
+
+.h1__error {
+    margin-left: 323px;
+    margin-top: 268px;
+    margin-bottom: 21px;
+    margin-right: 361px;
+
+}
+
+.p__error {
+    margin-left: 323px;
+    margin-bottom: 10px;
+    margin-right: 164px;
+}
+
+.button__error {
+    width: 342px;
+    height: 60px;
+    background-color: var(--color-brand-1);
+    border-radius: 8px;
+    border: 2px solid var(--color-brand-1);
+    margin-left: 323px;
+    margin-right: 156px;
+}
+
+.div__alert {
+    width: 50%;
+    height: 100vh;
+}
+
+.div__pink {
+    background-color: var(--color-brand-1);
+    height: 350px;
+    width: 400px;
+    margin-top: 179px;
+    margin-left: 60px;
+    margin-right: 379px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div__purple {
+    background-color: rgba(82, 15, 132, 1);
+    height: 350px;
+    width: 400px;
+    margin-top: 206px;
+    margin-left: 75px;
+    margin-right: 358px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.fa-solid {
+    background-color: var(--color-grey-7);
+    width: 114px;
+    height: 47px;
+}
+
+.fa-triangle-exclamation {
+    background-color: var(--color-brand-1);
+    font-size: 120px;
+    color: var(--color-grey-7);
+}
+
+@media(max-width:736px){
+main{
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.div__error{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.div__error p{
+    width: 40%;
+}
+.div__error *{
+    margin: 0;
+
+}
+.div__alert{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: max-content;
+}
+.div__alert *{
+    margin: 0;
+}
+.div__purple{
+    left: 21px;
+    top: 27px;
+}
+}

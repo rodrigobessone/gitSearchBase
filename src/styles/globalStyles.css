@@ -10,3 +10,65 @@
   --color-alert: #c22554;
   --font-primary: "Inter", sans-serif;
 }
+
+.text-1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: var(--color-grey-7);
+}
+
+.text-2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--color-grey-7);
+}
+
+.text-3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--color-grey-7);
+}
+
+.text-4 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-grey-7);
+}
+
+.text-5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-6 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.05px;
+  color:  rgba(255, 255, 255, 1);
+}
+
+.text-7 {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--color-grey-7);
+
+}
+
+.text-8 {
+  font-weight: 700;
+  font-size: 38px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.text-9 {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  
+}
