@@ -3,9 +3,11 @@
 // "window.history.back()" para redirecionar o usuário para a página anterior no histórico de 
 // navegação.
 function newSearch() {
+    const input = document.querySelector(".input")
     const button = document.querySelector(".button__error")
     button.addEventListener("click", () => {
         window.history.back()
+        input.value = ""
     })
 }
 

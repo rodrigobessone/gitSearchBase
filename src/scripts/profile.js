@@ -77,9 +77,11 @@ function renderRepos(items) {
 // A função "toIndex" adiciona um evento de clique ao botão de volta do navegador na página, permitindo
 // que o usuário retorne para a página anterior ao clicar nele.
 function toIndex() {
+    const input = document.querySelector(".input")
     const button = document.querySelector(".header__button")
     button.addEventListener("click", () => {
         window.history.back()
+        input.value = ""
     })
 }
 
